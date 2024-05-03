@@ -6,6 +6,17 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return SafeArea(
+      child: Scaffold(
+        body: Padding(
+          padding: const EdgeInsets.all(40.0),
+          child: Column(
+            children: [
+
+            ],
+          ),
+        ),
+      ),
+    );
   }
 }
